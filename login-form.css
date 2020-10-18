@@ -1,0 +1,61 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.login-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input {
+    border: none;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.login-form {
+    -webkit-appearance: none;
+    min-width: 300px;
+    background-color: aqua;
+    padding: 50px;
+}
+
+.login-form label {
+    display: inline-block;
+    width: 75px;
+}
+
+.reset {
+    list-style-type: none;
+}
+
+.form-heading {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.form-element {
+    padding: 10px 0;
+}
+
+.submit {
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 3px;
+}
